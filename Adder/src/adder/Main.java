@@ -6,8 +6,12 @@ public class Main {
         try {
             int result = addArguments(args);
             System.out.println(result);
+        } catch (NumberFormatException e) {
+            System.err.println("Number format incorrect. Please try again.");
+        } catch (NullPointerException e) {
+            System.err.println("Please provide arguments.");
         } catch (Exception e) {
-            System.err.println("Please provide integers to add");
+            System.err.println("Unknown exception. Please try again.");
         }
     }
 
