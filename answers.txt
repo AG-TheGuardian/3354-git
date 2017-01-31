@@ -1,0 +1,6 @@
+a) 7
+b) 1/24/17 at 10:28PM
+c) git log displays the full commit history, git status displays only uncommitted changes.
+d) unstaged files are files that have not been staged and are therefor not ready to commit. Untracked files are files that Git acknowleges but does not track.
+e) Checkout updates the files in the working tree to match the version in the index, and also updates the HEAD to the specified branch. Git reset resets the HEAD to the specified state.
+f) the pull request will be sent sans uncommitted changes.
